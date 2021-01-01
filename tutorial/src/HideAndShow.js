@@ -18,7 +18,9 @@ class HideAndShow extends React.Component {
         ) : (
           <p>You need to click button</p>
         )}
-        <button onClick={this.toggleme}>Toggle Me</button>
+        <button
+          onClick={this.toggleme}
+        >{`Toggle Me ! (${this.state.show})`}</button>
       </div>
     );
   }
