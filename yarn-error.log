@@ -1,0 +1,34 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add typscript
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\WindowsPowerShell\Scripts\HP.ClientScriptLibrary;C:\Program Files\Java\jdk1.8.0_181\bin\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\PuTTY\;C:\Windows\System32\;C:\Users\dhsingh\AppData\Local\Microsoft\WindowsApps;C:\Users\dhsingh\AppData\Roaming\npm;C:\Users\dhsingh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python27;C:\Program Files\Docker\Docker\resources\bin;C:\Users\dhsingh\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MongoDB\Server\4.4\bin;
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typscript: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND ptx.proxy.corp.sopra ptx.proxy.corp.sopra:8080
+      at ClientRequest.onError (C:\Program Files (x86)\Yarn\lib\cli.js:152213:17)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at Socket.socketErrorListener (_http_client.js:392:9)
+      at Socket.emit (events.js:198:13)
+      at emitErrorNT (internal/streams/destroy.js:91:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
