@@ -10,6 +10,9 @@ class HideAndShow extends React.Component {
   toggleme = () => {
     this.setState({ show: !this.state.show });
   };
+  componentDidUpdate() {
+    console.log("hi");
+  }
   render() {
     return (
       <div>
